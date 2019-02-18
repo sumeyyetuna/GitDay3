@@ -7,4 +7,14 @@ public class MergeTests {
     public void mergeTest(){
         System.out.println("Testing the merge");
     }
+
+    @Test
+    public void stashTest1(){
+        System.out.println("This will be stashed");
+
+    }
+    @Test
+    public void stashTest2(){
+        System.out.println("This is stash 2");
+    }
 }
